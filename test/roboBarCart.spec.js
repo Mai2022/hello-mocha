@@ -56,11 +56,11 @@ describe('RoboBarCart', function() {
     await driver.findElement(By.css(".ng-scope:nth-child(3) .input-group-append > .btn")).click()
     // 5 | click | css=.btn-success | 
     await driver.findElement(By.css(".btn-success")).click()
-    // 6 | mouseOver | css=.btn-success | 
-    {
-      const element = await driver.findElement(By.css(".btn-success"))
-      await driver.actions({ bridge: true }).moveToElement(element).perform()
-    }
+//    // 6 | mouseOver | css=.btn-success | 
+//    {
+//      const element = await driver.findElement(By.css(".btn-success"))
+//      await driver.actions({ bridge: true }).moveToElement(element).perform()
+//    }
     // 7 | click | id=ageInput | 
     await driver.findElement(By.id("ageInput")).click()
     // 8 | type | id=ageInput | 33
@@ -99,11 +99,11 @@ describe('RoboBarCart', function() {
     await driver.findElement(By.css(".ng-scope:nth-child(3) .input-group-append > .btn")).click()
     // 4 | click | css=.btn-success | 
     await driver.findElement(By.css(".btn-success")).click()
-    // 5 | mouseOver | css=.btn-success | 
-    {
-      const element = await driver.findElement(By.css(".btn-success"))
-      await driver.actions({ bridge: true }).moveToElement(element).perform()
-    }
+//    // 5 | mouseOver | css=.btn-success | 
+//    {
+//      const element = await driver.findElement(By.css(".btn-success"))
+//      await driver.actions({ bridge: true }).moveToElement(element).perform()
+//    }
     // 6 | click | id=ageInput | 
     await driver.findElement(By.id("ageInput")).click()
     // 7 | type | id=ageInput | 23
